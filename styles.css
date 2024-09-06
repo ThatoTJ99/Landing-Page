@@ -1,5 +1,145 @@
-.one{
-    color: firebrick;
-    width: 200px;
-    height: 200px;
+body {
+    padding: 0px 15px;
+    margin: auto;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*Header*/
+.lime {
+    background-color: #1F2937;
+    display: flex;
+    font-size: 19px;
+    color: white;
+    padding: 10px 30px;
+    width: auto;
+    gap: 40rem;
+    align-content: center;
+    align-items: center;
+}
+
+/*list*/
+.list {
+    display: flex;
+    list-style-type: none;
+}
+
+.list a {
+    color: #fff;
+    text-decoration: none;
+    float: inline-end;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+/*Main Section*/
+/*One*/
+.one {
+    background-color: #1F2937;
+    font-size: 22px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    padding: 15px 35px;
+    text-wrap: wrap;
+}
+
+.imgx {
+    width: 500px;
+    padding: 10px 15px;
+}
+
+.too {
+    font-size: 19px;
+    font-style: oblique;
+}
+
+/*pics*/
+.pics {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 10px;
+    /*max-width: 100%;*/
+}
+
+
+.img {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    width: 100px;
+    padding: 5px 150px;
+}
+
+.pics p {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    width: 100px;
+    padding: 0px 150px;
+}
+
+/*qoute*/
+.qoute {
+    background-color: lightgray;
+    font-weight: light;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.qoute blockquote {
+    padding: 2px 40px;
+    width: auto;
+    display: block;
+    align-content: center;
+    text-align: center;
+}
+
+.qoute p {
+    padding: 2px 40px;
+    width: auto;
+    text-align: right;
+    font-weight: bold;
+}
+
+/*call*/
+.call {
+    background-color: white;
+    padding: 134px 130px;
+    width: auto;
+    display: block;
+    align-self: center;
+    align-content: center;
+
+}
+
+.blue {
+    background-color: blue;
+    color: #fff;
+    border-radius: 12px;
+    padding: 20px 24px;
+    width: auto;
+    display: block;
+    align-items: center;
+    align-content: center;
+    font-size: 20px;
+}
+
+
+
+
+/*Footer*/
+.bug {
+    text-align: center;
+    font-size: large;
+    color: white;
+    background-color: #1F2937;
+    padding: 24px 24px;
+    width: auto;
 }
